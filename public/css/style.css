@@ -32,6 +32,7 @@ html::-webkit-scrollbar-thumb {
   background: #f00;
 }
 
+
 body {
   background: #000;
 }
@@ -120,6 +121,7 @@ section {
   color: #fff;
 }
 
+header .navbar a.active,
 .header .navbar a:hover {
   background: #f00;
 }
@@ -444,9 +446,14 @@ section {
           transform: translateY(6.5rem);
 }
 
+.trainers .container{
+  margin-top: 65px;
+}
+
 .trainers .box-container .box .content span {
   font-size: 1.5rem;
   color: #f00;
+  
 }
 
 .trainers .box-container .box .content h3 {

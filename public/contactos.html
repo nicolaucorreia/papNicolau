@@ -1,0 +1,134 @@
+!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlantisGym</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon2.jpg">
+
+    <!-- link da fontes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- link do css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactos.css">
+
+</head>
+<body>
+    
+<!-- secção header começa  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <span>Atlantis</span>Gym </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="index.html">Informações</a>
+        <a href="index.html">Planos</a>
+        <a href="treinadores.html">Treinadores</a>
+        <a class="active" href="contactos.html">Contacte-nos</a>
+    </nav>
+
+</header>
+
+<!--  secção header acaba     -->
+
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left">
+                <div class="contact map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3154.949468010517!2d-25.6587678!3d37.7443297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb5cd536768879e9%3A0xe9c07dd0c20728af!2sGin%C3%A1sio%20Atlantis!5e0!3m2!1spt-PT!2spt!4v1646330258245!5m2!1spt-PT!2spt" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Nome Completo" id="contact-PrimNome">
+				<input type="email" class="field" placeholder="Email" id="contact-email">
+				<input type="number"  name="telemovel" class="field" placeholder="Telemóvel" id="contact-telem">
+				<textarea placeholder="Messagem" id="contact-mensagem" class="field" required></textarea>
+                <div class="inputBox" method="POST">
+                    <button onclick="enviarContactos()" class="btn" type="submit" >Enviar Mensagem</button>
+                 </div>
+			</div>
+		</div>
+	</div>
+         
+    </div>
+</div>
+</body>
+
+
+<!--  secção footer começa   -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Links rápidos</h3>
+            <a class="links" href="index.html">home</a>
+            <a class="links" href="sobre.html">Sobre</a>
+            <a class="links" href="index.html">Informações</a>
+            <a class="links" href="index.html">Preços</a>
+            <a class="links" href="treinadores.html">Treinadores</a>
+            <a class="links" href="contactos.html">Contacte-nos!</a>
+        </div>
+
+        <div class="box">
+            <h3>Horário</h3>
+            <p> Segunda :<i> 5:00 - 22:00 </i> </p>
+            <p> Terça :<i>  5:00 - 22:00 </i> </p>
+            <p> Quarta :<i> 5:00 - 22:00 </i> </p>
+            <p> Quinta :<i> 5:00 - 22:00 </i> </p>
+            <p> Sexta : <i> 5:00 - 22:00 </i> </p>
+            <p> Sábado :<i> 9:00 - 15:00 </i> </p>
+            <p> Domingo :<i>10:00 - 13:00 </i> </p>
+        </div>
+
+        <div class="box">
+            <h3>Contactos</h3>
+            <p> <i class="fas fa-phone"></i> 296 385 300 </p>
+            <p> <i class="fas fa-phone"></i> 915 536 665 </p>
+            <p> <i class="fas fa-envelope"></i> atlantisginasio@hotmail.com </p>
+            <a target="_blank"  href="https://www.google.pt/maps/place/Gin%C3%A1sio+Atlantis/@37.7443297,-25.6562572,17z/data=!4m5!3m4!1s0xb5cd536768879e9:0xe9c07dd0c20728af!8m2!3d37.7443298!4d-25.6565682?hl=pt-PT"><p> <i class="fas fa-map"></i> Av. Dom João III nº10, 9500-310 Ponta Delgada </p></a>
+            
+            <div class="share">
+                <a href="https://pt-pt.facebook.com/pages/category/Gym-Physical-Fitness-Center/Gin%C3%A1sio-Atl%C3%A2ntis-690191257782423/" target="_blank"class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/ginasioatlantis1994/" target="_blank" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Boletim de Notícias</h3>
+            <p>Subscreva para informações diárias!</p>
+            <form action="">
+                <input type="email" name="" class="email" placeholder="insira o seu email" id="">
+                <input type="submit" value="subscreva" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit"> criado por <span>Nicolau Correia</span> | todos os direitos reservados!</div>
+
+<!--  secção footer acaba  -->
+
+<!-- secção coockies consent começa-->
+<!-- secção coockies consent acaba-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- pasta js  -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
