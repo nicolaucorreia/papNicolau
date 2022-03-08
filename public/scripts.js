@@ -15,7 +15,7 @@ function enviarContactos(){
                 let c = telem.charAt(i)
                 console.log(c)
                 if(isNaN(c)){
-                    alert('numero invalido')
+                    alert('número inválido')
                     break
                 }       
             }
@@ -29,7 +29,7 @@ function enviarContactos(){
   
   
           if(pn == ''||email==''|| msg=='' || telem==''){
-                alert('Preencha todos os Campos!!')
+                alert('Preencha todos os Campos!')
           }else{
     
                   const data = {
@@ -51,7 +51,7 @@ function enviarContactos(){
                   .then(res => res.json())
                   .then(data => alert(data.text))
                   .catch((err) => {
-                    console.log('Request failed', err.Mensagem)
+                    console.log('Pedido falhado', err.Mensagem)
                   });
   
             }  
